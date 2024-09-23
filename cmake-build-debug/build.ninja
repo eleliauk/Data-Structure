@@ -49,12 +49,6 @@ cmake_ninja_workdir = /Users/shanyujia/学习资料/课内学习/大二上/课�
 
 build cmake_object_order_depends_target_Data_Structure: phony || .
 
-build CMakeFiles/Data_Structure.dir/main.cpp.o: CXX_COMPILER__Data_Structure_unscanned_Debug /Users/shanyujia/学习资料/课内学习/大二上/课程资料/Data-Structure/main.cpp || cmake_object_order_depends_target_Data_Structure
-  DEP_FILE = CMakeFiles/Data_Structure.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/Data_Structure.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_Structure.dir
-
 build CMakeFiles/Data_Structure.dir/chapter1/unit1.cpp.o: CXX_COMPILER__Data_Structure_unscanned_Debug /Users/shanyujia/学习资料/课内学习/大二上/课程资料/Data-Structure/chapter1/unit1.cpp || cmake_object_order_depends_target_Data_Structure
   DEP_FILE = CMakeFiles/Data_Structure.dir/chapter1/unit1.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
@@ -69,7 +63,7 @@ build CMakeFiles/Data_Structure.dir/chapter1/unit1.cpp.o: CXX_COMPILER__Data_Str
 #############################################
 # Link the executable Data_Structure
 
-build Data_Structure: CXX_EXECUTABLE_LINKER__Data_Structure_Debug CMakeFiles/Data_Structure.dir/main.cpp.o CMakeFiles/Data_Structure.dir/chapter1/unit1.cpp.o
+build Data_Structure: CXX_EXECUTABLE_LINKER__Data_Structure_Debug CMakeFiles/Data_Structure.dir/chapter1/unit1.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/Data_Structure.dir
   POST_BUILD = :
