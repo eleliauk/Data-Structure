@@ -1,0 +1,4 @@
+/Users/shanyujia/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/shanyujia/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/shanyujia/学习资料/课内学习/大二上/课程资料/Data-Structure -B /Users/shanyujia/学习资料/课内学习/大二上/课程资料/Data-Structure/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/shanyujia/学习资料/课内学习/大二上/课程资料/Data-Structure/cmake-build-debug
