@@ -1,3 +1,0 @@
-/Users/shanyujia/学习资料/课内学习/大二上/课程资料/Data-Structure/cmake-build-debug/CMakeFiles/Data_Structure.dir
-/Users/shanyujia/学习资料/课内学习/大二上/课程资料/Data-Structure/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/shanyujia/学习资料/课内学习/大二上/课程资料/Data-Structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
