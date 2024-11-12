@@ -4,7 +4,7 @@
 #include <cstring>
 #include <vector>
 using namespace std;
-
+//Mermain[]
 struct Student {
     char id[9];                  // 学号（8位字符）
     char name[11];               // 姓名（10位字符）
