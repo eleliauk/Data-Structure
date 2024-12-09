@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>最小生成树可视化</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.24.0/cytoscape.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    #input-section {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    textarea {
+      width: 100%;
+      height: 100px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    #graph-canvas {
+      width: 800px;
+      height: 500px;
+      border: 1px solid #ccc;
+      margin: 20px 0;
+    }
+    #output-section {
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #0074D9;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #005dc1;
+    }
+  </style>
+</head>
+<body>
+  <h1>最小生成树可视化</h1>
+  <div id="input-section">
+    <h2>输入图数据</h2>
+    <form id="graph-input">
+      <label>
+        节点数:
+        <input type="number" id="node-count" min="1" value="4">
+      </label>
+      <label>
+        边 (格式: 起点 终点 权重，每行一条边):
+        <textarea id="edges">0 1 10
+1 2 15
+2 3 4
+0 3 6
+0 2 5</textarea>
+      </label>
+      <button id="run-algorithm">执行算法</button>
+    </form>
+  </div>
+
+  <div id="visualization-section">
+    <h2>图展示</h2>
+    <div id="graph-canvas"></div>
+  </div>
+
+  <div id="output-section">
+    <h2>结果</h2>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

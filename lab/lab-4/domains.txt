@@ -1,0 +1,5 @@
+apple.com
+ccnu.edu.com
+facebook.com
+google.com
+openai.com
