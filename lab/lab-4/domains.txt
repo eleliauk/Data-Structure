@@ -3,3 +3,13 @@ ccnu.edu.com
 facebook.com
 google.com
 openai.com
+www.google.com
+mail.google.com
+drive.google.com
+www.microsoft.com
+docs.microsoft.com
+github.com
+www.github.com
+edu.cn
+www.tsinghua.edu.cn
+www.pku.edu.cn

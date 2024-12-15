@@ -147,7 +147,7 @@ int getValidInput(int min, int max) {
     while (true) {
         cin >> choice;
 
-        // 检查输入是否为有效数字
+       
         if (cin.fail() || choice < min || choice > max) {
             cout << "输入无效，请输入一个介于 " << min << " 和 " << max << " 之间的数字: ";
             cin.clear(); // 清除错误状态
