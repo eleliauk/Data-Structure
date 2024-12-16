@@ -141,8 +141,6 @@ function initializeGraphs(elements) {
             padding: 30
         }
     });
-
-    // 创建MST图
     const mstEdges = kruskal(elements.nodes, elements.edges);
     mstGraph = cytoscape({
         container: document.getElementById('mst-graph'),
