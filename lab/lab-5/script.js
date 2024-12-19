@@ -28,8 +28,6 @@ function generateRandomGraph(nodeCount) {
             const weight = Math.floor(Math.random() * maxWeight) + 1;
             const edgeId = `${u}-${v}`;
             const reverseEdgeId = `${v}-${u}`;
-            
-            // 检查边是否已存在
             if (!edges.some(e => e.data.id === edgeId || e.data.id === reverseEdgeId)) {
                 edges.push({
                     data: {
@@ -160,11 +158,10 @@ function initializeGraphs(elements) {
     mstGraph.edges().addClass('mst');
 }
 
-// 事件监听
 document.getElementById('generate-graph').addEventListener('click', () => {
     const nodeCount = parseInt(document.getElementById('node-count').value);
     if (nodeCount < 2 || nodeCount > 100) {
-        alert('节点数量必须在2到100之间');
+        alert('节点数量必须在2-100之间');
         return;
     }
     
